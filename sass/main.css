@@ -1,0 +1,1152 @@
+body {
+  background: radial-gradient(rgb(168, 112, 201), rgb(150, 13, 138));
+  margin: 0;
+}
+
+#gridboo .data h2 {
+  display: flex;
+  background-color: antiquewhite;
+  margin: auto;
+  width: 60%;
+  border-style: double;
+  border-radius: 20px;
+  justify-content: center;
+  margin-top: 0.5%;
+  font-size: 150%;
+}
+#gridboo .pala {
+  display: flex;
+  width: 8%;
+  margin-top: 0.5%;
+  border: groove 5px;
+  height: 46px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Shrikhand", cursive;
+  color: rgb(248, 245, 245);
+  background-color: rgb(80, 80, 136);
+}
+#gridboo .pala p {
+  margin-top: 5%;
+}
+
+/* productos Morral */
+#pro {
+  margin-bottom: 2%;
+  display: grid;
+  gap: 1%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 50% 50%;
+}
+#pro p {
+  font-family: "Oswald", sans-serif;
+  background: linear-gradient(black, rgb(128, 5, 5));
+  border: groove 3px;
+  border-color: rgb(96, 6, 104);
+  color: violet;
+  width: 35%;
+  border: groove 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pro .Acessorios {
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: groove 7px;
+  text-align: center;
+  height: 98%;
+  width: 59%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-column: 2/3;
+  grid-row: 2;
+}
+#pro .morral {
+  width: 74%;
+  height: auto;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  margin-left: 4%;
+  text-align: center;
+}
+
+/* Hoodie */
+#pro .Hoodie {
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: groove 7px;
+  text-align: center;
+  width: 30%;
+  height: 96%;
+  grid-column: 2/4;
+  grid-row: 1;
+  margin-right: 37.5%;
+  margin-left: auto;
+}
+#pro .buzo {
+  width: 85%;
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+#pro .Remeras {
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: groove 7px;
+  text-align: center;
+  grid-column: 1/3;
+  grid-row: 1;
+  width: 30%;
+  height: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pro .over {
+  width: 85%;
+  height: auto;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+/* footer grid */
+#fin {
+  display: grid;
+  height: auto;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 50%;
+  background: linear-gradient(to bottom right, rgb(0, 0, 0), rgba(47, 7, 63, 0.589));
+  border: groove 5px;
+  /* ubicacion  */
+  /* redes */
+}
+#fin .QS {
+  margin-left: 35%;
+  margin-top: 6%;
+  width: 50%;
+}
+#fin .QS h2 {
+  background: linear-gradient(black, rgb(134, 21, 21));
+  border-radius: 6%;
+  border: outset 2px;
+  color: rgb(240, 227, 240);
+  text-align: center;
+}
+#fin .QS p {
+  border-radius: 2%;
+  color: white;
+  border: outset 2px;
+  background-color: black;
+  text-align: left;
+}
+#fin .ubicacion {
+  width: 50%;
+  margin-left: 15%;
+  margin-top: 6%;
+}
+#fin .ubicacion iframe {
+  width: 165%;
+  height: 135%;
+}
+#fin .ubicacion h2 {
+  background: linear-gradient(black, rgb(134, 21, 21));
+  border-radius: 6%;
+  border: outset 2px;
+  color: rgb(240, 227, 240);
+  text-align: center;
+  margin-left: 32%;
+  width: 100%;
+}
+#fin .Redes {
+  width: 50%;
+  text-align: center;
+  margin-left: 27%;
+  margin-top: 6%;
+}
+#fin .Redes nav {
+  background-color: black;
+  border: outset 2px white;
+  text-align: start;
+}
+#fin .Redes nav a {
+  color: rgb(211, 117, 235);
+  justify-content: auto;
+  text-decoration: none;
+}
+#fin .Redes nav a:hover {
+  color: aqua;
+}
+#fin .Redes h2 {
+  background: linear-gradient(black, rgb(134, 21, 21));
+  border-radius: 6%;
+  border: outset 2px;
+  color: rgb(240, 227, 240);
+  text-align: center;
+}
+
+/* contacto */
+#formulario {
+  display: block;
+  border: groove;
+  border-color: rgb(134, 39, 134);
+  border-width: 10px;
+  background-color: black;
+  text-align: left;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 1%;
+}
+#formulario .formu {
+  background-color: rgb(0, 0, 0);
+  color: blueviolet;
+}
+#formulario .ingNombre {
+  color: blueviolet;
+  margin-bottom: 10px;
+  background-color: black;
+}
+#formulario .noti {
+  color: blueviolet;
+  background-color: black;
+  margin-bottom: 10px;
+}
+#formulario .pais {
+  color: blueviolet;
+  background-color: black;
+  margin-bottom: 10px;
+}
+#formulario .nume {
+  color: blueviolet;
+  background-color: black;
+  margin-bottom: 10px;
+  margin: auto;
+}
+#formulario .nume #numee {
+  width: 87%;
+}
+#formulario .consul {
+  color: blueviolet;
+  background-color: black;
+}
+
+/* remeras GRID */
+#menu {
+  margin-bottom: -0.6%;
+  margin-top: 0.5%;
+  margin-left: 0.5%;
+}
+#menu a {
+  color: rgb(241, 238, 241);
+  font-size: 105%;
+  text-decoration: none;
+  margin-left: 0.2%;
+}
+#menu a:hover {
+  color: rgb(0, 0, 0);
+}
+#menu .busqueda {
+  gap: 0.5%;
+  display: flex;
+  justify-content: end;
+  margin-top: -1.8%;
+}
+
+#tiendaR {
+  display: grid;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50% 49%;
+  gap: 1%;
+  /* remera 1 */
+  /* remera 2 */
+  /* remera3 */
+  /* remera4 */
+}
+#tiendaR .talles {
+  background-color: rgb(0, 0, 0);
+  color: violet;
+  border-radius: 7%;
+  border: groove;
+  width: 12%;
+  margin-bottom: 2%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#tiendaR h3 {
+  background-color: burlywood;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px;
+  width: 20%;
+}
+#tiendaR h2 {
+  background-color: black;
+  border: groove;
+  color: violet;
+  text-align: center;
+  width: 36%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tiendaR p {
+  margin-top: 0px;
+  background-color: black;
+  color: violet;
+  width: 15%;
+  border: groove 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tiendaR .angel {
+  background: linear-gradient(rgb(129, 5, 129), rgb(20, 20, 54));
+  border-radius: 10px;
+  border: groove 7px;
+  text-align: center;
+}
+#tiendaR .angel .angelR {
+  border: groove 7px;
+  width: 44%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 10%;
+  margin-left: 4%;
+  text-align: center;
+}
+#tiendaR .compton {
+  background: linear-gradient(rgb(129, 5, 129), rgb(20, 20, 54));
+  border-radius: 10px;
+  border: groove 7px;
+  text-align: center;
+}
+#tiendaR .compton .comptonR {
+  border: groove 7px;
+  width: 46.5%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 10%;
+  margin-left: 4%;
+  text-align: center;
+}
+#tiendaR .cactus {
+  background: linear-gradient(rgb(20, 20, 54), rgb(129, 5, 129));
+  border-radius: 10px;
+  border: groove 7px;
+  text-align: center;
+  margin-bottom: 10%;
+  height: 100%;
+}
+#tiendaR .cactus .cactusR {
+  border: groove 7px;
+  width: 44%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 10%;
+  margin-left: 4%;
+  text-align: center;
+}
+#tiendaR .fear {
+  background: linear-gradient(rgb(20, 20, 54), rgb(129, 5, 129));
+  border-radius: 10px;
+  border: groove 7px;
+  text-align: center;
+  margin-bottom: 10%;
+  height: 100%;
+}
+#tiendaR .fear .fearR {
+  border: groove 7px;
+  width: 44%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 10%;
+  margin-left: 4%;
+  text-align: center;
+}
+
+/*  hoodie grid  */
+#tiendaH {
+  display: grid;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50% 49%;
+  gap: 1%;
+  /* hoodie 1  */
+  /* hoodie 2 */
+  /* hoodie 3 */
+  /* hoodie 4 */
+}
+#tiendaH .talles {
+  background-color: rgb(0, 0, 0);
+  color: violet;
+  border-radius: 7%;
+  border: groove;
+  width: 12%;
+  margin-bottom: 2%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#tiendaH h3 {
+  background-color: burlywood;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px;
+  width: 20%;
+}
+#tiendaH h2 {
+  background-color: black;
+  border: groove;
+  color: violet;
+  text-align: center;
+  width: 36%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tiendaH p {
+  margin-top: 0px;
+  background-color: black;
+  color: violet;
+  width: 15%;
+  border: groove 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tiendaH .death {
+  background: linear-gradient(rgb(129, 5, 129), rgb(20, 20, 54));
+  border-radius: 10px;
+  border: groove 7px;
+  text-align: center;
+}
+#tiendaH .death .deathH {
+  border: groove 7px;
+  width: 42%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 10%;
+  margin-left: auto;
+  text-align: center;
+}
+#tiendaH .anti {
+  background: linear-gradient(rgb(129, 5, 129), rgb(20, 20, 54));
+  border-radius: 10px;
+  border: groove 7px;
+  text-align: center;
+}
+#tiendaH .anti .antiH {
+  border: groove 7px;
+  width: 42%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 10%;
+  margin-left: auto;
+  text-align: center;
+}
+#tiendaH .sons {
+  background: linear-gradient(rgb(20, 20, 54), rgb(129, 5, 129));
+  border-radius: 10px;
+  border: groove 7px;
+  text-align: center;
+  margin-bottom: 10%;
+  height: 100%;
+}
+#tiendaH .sons .sonsH {
+  border: groove 7px;
+  width: 42%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 10%;
+  margin-left: auto;
+  text-align: center;
+}
+#tiendaH .jack {
+  background: linear-gradient(rgb(20, 20, 54), rgb(129, 5, 129));
+  border-radius: 10px;
+  border: groove 7px;
+  text-align: center;
+  margin-bottom: 10%;
+  height: 100%;
+}
+#tiendaH .jack .jackH {
+  border: groove 7px;
+  width: 42%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 10%;
+  margin-left: auto;
+  text-align: center;
+}
+
+/* accesorios grid */
+#tiendaA {
+  display: grid;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50% 49%;
+  gap: 1%;
+}
+#tiendaA h3 {
+  background-color: burlywood;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px;
+  width: 20%;
+}
+#tiendaA h2 {
+  background-color: black;
+  border: groove;
+  color: violet;
+  text-align: center;
+  width: 27%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tiendaA .galaxy {
+  background: linear-gradient(rgb(129, 5, 129), rgb(20, 20, 54));
+  border-radius: 10px;
+  border: groove 7px;
+  text-align: center;
+}
+#tiendaA .galaxy .galaxyA {
+  border: groove 7px;
+  width: 45%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 10%;
+  margin-left: 4%;
+  text-align: center;
+}
+#tiendaA .knife {
+  background: linear-gradient(rgb(129, 5, 129), rgb(20, 20, 54));
+  border-radius: 10px;
+  border: groove 7px;
+  text-align: center;
+}
+#tiendaA .knife .knifeA {
+  border: groove 7px;
+  width: 45%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 10%;
+  margin-left: 4%;
+  text-align: center;
+}
+#tiendaA .sk8 {
+  background: linear-gradient(rgb(20, 20, 54), rgb(129, 5, 129));
+  border-radius: 10px;
+  border: groove 7px;
+  text-align: center;
+  margin-bottom: 10%;
+  height: 100%;
+}
+#tiendaA .sk8 .sk8A {
+  border: groove 7px;
+  width: 45%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 10%;
+  margin-left: 4%;
+  text-align: center;
+}
+#tiendaA .braind {
+  background: linear-gradient(rgb(20, 20, 54), rgb(129, 5, 129));
+  border-radius: 10px;
+  border: groove 7px;
+  text-align: center;
+  margin-bottom: 10%;
+  height: 100%;
+}
+#tiendaA .braind .brainD {
+  border: groove 7px;
+  width: 45%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 10%;
+  margin-left: 4%;
+  text-align: center;
+}
+
+/* media queries */
+@media (max-width: 390px) {
+  #gridboo .data h2 {
+    width: 100%;
+    font-size: 13px;
+    height: 40px;
+    border-radius: 0%;
+  }
+  #gridboo .pala {
+    display: flex;
+    width: 30%;
+    margin-top: 0.5%;
+    border: groove 5px;
+    height: 46px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Shrikhand", cursive;
+    color: rgb(248, 245, 245);
+    background-color: rgb(80, 80, 136);
+  }
+  #pro {
+    margin-bottom: 0%;
+    display: grid;
+    gap: 0%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    height: 1000px;
+  }
+  #pro .Acessorios {
+    grid-row: 3;
+    width: 60%;
+    margin: auto;
+    height: auto;
+  }
+  #pro .Hoodie {
+    grid-row: 2;
+    width: 60%;
+    margin: auto;
+    height: auto;
+  }
+  #pro .Remeras {
+    grid-row: 1;
+    width: 60%;
+    margin: auto;
+    height: auto;
+  }
+  #pro p {
+    width: 50%;
+  }
+  #tiendaR {
+    display: grid;
+    margin-top: 1%;
+    margin-bottom: 20%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 25% 25% 25%;
+    height: 2200px;
+    gap: 1%;
+  }
+  #tiendaR .angel .angelR {
+    width: 65%;
+  }
+  #tiendaR .compton .comptonR {
+    width: 68%;
+  }
+  #tiendaR .cactus .cactusR {
+    width: 65%;
+  }
+  #tiendaR .fear .fearR {
+    width: 65%;
+  }
+  #tiendaR h3 {
+    background-color: burlywood;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px;
+    width: 25%;
+  }
+  #tiendaR .talles {
+    background-color: rgb(0, 0, 0);
+    color: violet;
+    border-radius: 7%;
+    border: groove;
+    width: 25%;
+    margin-bottom: 2%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #tiendaR h2 {
+    display: block;
+    background-color: black;
+    border: groove;
+    color: violet;
+    text-align: center;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #tiendaR p {
+    margin-top: 0px;
+    background-color: black;
+    color: violet;
+    width: 15%;
+    border: groove 3px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #fin {
+    display: grid;
+    height: 200px;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 100%;
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), rgba(106, 17, 141, 0.589));
+    border: groove 5px;
+  }
+  #fin .QS {
+    margin-left: 18%;
+    margin-top: 15%;
+    width: 68%;
+  }
+  #fin .QS h2 {
+    background: linear-gradient(black, rgb(134, 21, 21));
+    border-radius: 6%;
+    border: outset 2px;
+    color: rgb(240, 227, 240);
+    text-align: center;
+    font-size: 100%;
+  }
+  #fin .QS p {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    height: 100px;
+    border-radius: 2%;
+    color: white;
+    border: outset 2px;
+    background-color: black;
+    text-align: left;
+  }
+  #fin .ubicacion {
+    width: 64%;
+    margin-left: 4%;
+    margin-top: 16%;
+  }
+  #fin .ubicacion h2 {
+    background: linear-gradient(black, rgb(134, 21, 21));
+    border-radius: 6%;
+    border: outset 2px;
+    color: rgb(240, 227, 240);
+    text-align: center;
+    margin-left: 22%;
+    width: 119%;
+    font-size: 100%;
+  }
+  #fin .ubicacion iframe {
+    width: 163%;
+    height: 45%;
+  }
+  #fin .Redes {
+    width: 70%;
+    text-align: center;
+    margin-left: 24%;
+    margin-top: 16%;
+  }
+  #fin .Redes nav {
+    background-color: black;
+    border: outset 2px white;
+    text-align: start;
+  }
+  #fin .Redes nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 12px;
+  }
+  #fin .Redes nav a :hover {
+    color: aqua;
+  }
+  #fin .Redes nav ul {
+    margin-left: -50%;
+  }
+  #fin .Redes h2 {
+    background: linear-gradient(black, rgb(134, 21, 21));
+    border-radius: 6%;
+    border: outset 2px;
+    color: rgb(240, 227, 240);
+    text-align: center;
+    font-size: 100%;
+  }
+  /* menu pag */
+  #menu {
+    margin-bottom: -0.6%;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+  }
+  #menu a {
+    color: rgb(241, 238, 241);
+    font-size: 105%;
+    text-decoration: none;
+    margin-left: 0.2%;
+  }
+  #menu a:hover {
+    color: rgb(0, 0, 0);
+  }
+  #menu .busqueda {
+    gap: 0.5%;
+    display: flex;
+    justify-content: end;
+    margin-top: -1.8%;
+    flex-direction: column;
+  }
+  #menu .busqueda .ordenn {
+    width: 50%;
+    height: 30px;
+    border-radius: 6px;
+  }
+  #tiendaH {
+    display: grid;
+    margin-top: 1%;
+    margin-bottom: 20%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 25% 25% 25%;
+    gap: 1%;
+    height: 2200px;
+  }
+  #tiendaH .death .deathH {
+    width: 68%;
+  }
+  #tiendaH .anti .antiH {
+    width: 68%;
+  }
+  #tiendaH .sons .sonsH {
+    width: 68%;
+  }
+  #tiendaH .jack .jackH {
+    width: 65%;
+  }
+  #tiendaH h3 {
+    background-color: burlywood;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px;
+    width: 25%;
+  }
+  #tiendaH .talles {
+    background-color: rgb(0, 0, 0);
+    color: violet;
+    border-radius: 7%;
+    border: groove;
+    width: 25%;
+    margin-bottom: 2%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #tiendaH h2 {
+    display: block;
+    background-color: black;
+    border: groove;
+    color: violet;
+    text-align: center;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #tiendaH p {
+    margin-top: 0px;
+    background-color: black;
+    color: violet;
+    width: 15%;
+    border: groove 3px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #tiendaA {
+    display: grid;
+    margin-top: 1%;
+    margin-bottom: 20%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 25% 25% 25%;
+    gap: 1%;
+  }
+  #tiendaA h3 {
+    background-color: burlywood;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px;
+    width: 25%;
+  }
+  #tiendaA h2 {
+    display: block;
+    background-color: black;
+    border: groove;
+    color: violet;
+    text-align: center;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #tiendaA p {
+    margin-top: 0px;
+    background-color: black;
+    color: violet;
+    width: 15%;
+    border: groove 3px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 770px) {
+  #gridboo .data h2 {
+    margin-top: 0.5%;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 0%;
+  }
+  #gridboo .pala {
+    display: flex;
+    width: 20%;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+    border: groove 5px;
+    height: 46px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Shrikhand", cursive;
+    color: rgb(248, 245, 245);
+    background-color: rgb(80, 80, 136);
+  }
+  #pro {
+    margin-bottom: 2%;
+    display: grid;
+    gap: 2%;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 50% 50%;
+  }
+  #pro .Acessorios {
+    width: 100%;
+    margin: auto;
+  }
+  #pro .Remeras {
+    width: 50%;
+    margin: auto;
+  }
+  #pro .Hoodie {
+    width: 50%;
+    margin: auto;
+  }
+  #pro p {
+    width: 50%;
+  }
+  #fin {
+    display: grid;
+    height: 250px;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 100%;
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), rgba(106, 17, 141, 0.589));
+    border: groove 5px;
+  }
+  #fin .QS {
+    margin-left: 18%;
+    margin-top: 15%;
+    width: 68%;
+  }
+  #fin .QS h2 {
+    background: linear-gradient(black, rgb(134, 21, 21));
+    border-radius: 6%;
+    border: outset 2px;
+    color: rgb(240, 227, 240);
+    text-align: center;
+  }
+  #fin .QS p {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    height: 100px;
+    border-radius: 2%;
+    color: white;
+    border: outset 2px;
+    background-color: black;
+    text-align: left;
+  }
+  #fin .ubicacion {
+    width: 64%;
+    margin-left: 4%;
+    margin-top: 16%;
+  }
+  #fin .ubicacion h2 {
+    background: linear-gradient(black, rgb(134, 21, 21));
+    border-radius: 6%;
+    border: outset 2px;
+    color: rgb(240, 227, 240);
+    text-align: center;
+    margin-left: 22%;
+    width: 119%;
+  }
+  #fin .ubicacion iframe {
+    width: 163%;
+    height: 45%;
+  }
+  #fin .Redes {
+    width: 70%;
+    text-align: center;
+    margin-left: 24%;
+    margin-top: 16%;
+  }
+  #fin .Redes nav {
+    background-color: black;
+    border: outset 2px white;
+    text-align: start;
+  }
+  #fin .Redes nav a {
+    color: rgb(162, 90, 211);
+    justify-content: auto;
+  }
+  #fin .Redes nav a:hover {
+    color: aliceblue;
+  }
+  #fin .Redes nav ul {
+    margin-left: 0%;
+  }
+  #fin .Redes h2 {
+    background: linear-gradient(black, rgb(134, 21, 21));
+    border-radius: 6%;
+    border: outset 2px;
+    color: rgb(240, 227, 240);
+    text-align: center;
+  }
+  /* menu pag */
+  #menu {
+    margin-bottom: -0.6%;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+  }
+  #menu a {
+    color: rgb(241, 238, 241);
+    font-size: 105%;
+    text-decoration: none;
+    margin-left: 0.2%;
+  }
+  #menu a:hover {
+    color: rgb(0, 0, 0);
+  }
+  #menu .busqueda {
+    gap: 0.5%;
+    display: flex;
+    justify-content: end;
+    margin-top: -3%;
+  }
+  #menu .busqueda .ordenn {
+    border-radius: 6px;
+  }
+  #tiendaR {
+    display: grid;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    gap: 1%;
+  }
+  #tiendaR h3 {
+    background-color: burlywood;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px;
+    width: 29%;
+  }
+  #tiendaR .talles {
+    background-color: rgb(0, 0, 0);
+    color: violet;
+    border-radius: 7%;
+    border: groove;
+    width: 25%;
+    margin-bottom: 2%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #tiendaR h2 {
+    display: block;
+    background-color: black;
+    border: groove;
+    color: violet;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #tiendaR p {
+    margin-top: 0px;
+    background-color: black;
+    color: violet;
+    width: 15%;
+    border: groove 3px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #tiendaH {
+    display: grid;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    gap: 1%;
+  }
+  #tiendaH h3 {
+    background-color: burlywood;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px;
+    width: 30%;
+  }
+  #tiendaH .talles {
+    background-color: rgb(0, 0, 0);
+    color: violet;
+    border-radius: 7%;
+    border: groove;
+    width: 25%;
+    margin-bottom: 2%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #tiendaH h2 {
+    display: block;
+    background-color: black;
+    border: groove;
+    color: violet;
+    text-align: center;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #tiendaH p {
+    margin-top: 0px;
+    background-color: black;
+    color: violet;
+    width: 15%;
+    border: groove 3px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #tiendaA {
+    display: grid;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    gap: 1%;
+  }
+  #tiendaA h3 {
+    background-color: burlywood;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px;
+    width: 30%;
+  }
+  #tiendaA h2 {
+    display: block;
+    background-color: black;
+    border: groove;
+    color: violet;
+    text-align: center;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #tiendaA p {
+    margin-top: 0px;
+    background-color: black;
+    color: violet;
+    width: 15%;
+    border: groove 3px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}/*# sourceMappingURL=main.css.map */
