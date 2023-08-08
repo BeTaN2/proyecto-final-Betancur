@@ -1,5 +1,5 @@
 body {
-  background: radial-gradient(rgb(168, 112, 201), rgb(150, 13, 138));
+  background: radial-gradient(rgb(127, 86, 151), rgb(77, 11, 71));
   margin: 0;
 }
 
@@ -237,21 +237,24 @@ body {
   margin-bottom: -0.6%;
   margin-top: 0.5%;
   margin-left: 0.5%;
+  color: aliceblue;
+  .busqueda {
+    gap: 0.5%;
+    display: flex;
+    justify-content: end;
+    margin-top: -1.8%;
+    color: white;
+  }
 }
 #menu a {
   color: rgb(241, 238, 241);
   font-size: 105%;
   text-decoration: none;
   margin-left: 0.2%;
+
 }
 #menu a:hover {
-  color: rgb(0, 0, 0);
-}
-#menu .busqueda {
-  gap: 0.5%;
-  display: flex;
-  justify-content: end;
-  margin-top: -1.8%;
+  color: rgb(228, 18, 217);
 }
 
 #tiendaR {
