@@ -242,6 +242,7 @@ body {
     margin-bottom: -0.6%;
     margin-top: 0.5%;
     margin-left: 0.5%;
+    color: white;
 
     a {
         color: rgb(241, 238, 241);
@@ -250,7 +251,7 @@ body {
         margin-left: 0.2%;
         }
         a:hover{
-            color: rgb(0, 0, 0);
+            color: rgb(95, 22, 138);
         }
     .busqueda{
         gap: 0.5%;
@@ -376,7 +377,7 @@ body {
 #tiendaH{
     display: grid;
     margin-top: 1% ;
-    margin-bottom: 0%;
+    margin-bottom: 1%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50% 49% ;
     gap: 1%;
@@ -489,7 +490,7 @@ body {
 #tiendaA{
     display: grid;
     margin-top: 1% ;
-    margin-bottom: 0%;
+    margin-bottom: 1%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50% 49% ;
     gap: 1%;
