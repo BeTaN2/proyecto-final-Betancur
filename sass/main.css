@@ -1,5 +1,5 @@
 body {
-  background: radial-gradient(rgb(127, 86, 151), rgb(77, 11, 71));
+  background: radial-gradient(rgb(168, 112, 201), rgb(150, 13, 138));
   margin: 0;
 }
 
@@ -237,13 +237,12 @@ body {
   margin-bottom: -0.6%;
   margin-top: 0.5%;
   margin-left: 0.5%;
-  color: aliceblue;
+  color: white;
   .busqueda {
     gap: 0.5%;
     display: flex;
     justify-content: end;
     margin-top: -1.8%;
-    color: white;
   }
 }
 #menu a {
@@ -251,10 +250,15 @@ body {
   font-size: 105%;
   text-decoration: none;
   margin-left: 0.2%;
-
 }
 #menu a:hover {
-  color: rgb(228, 18, 217);
+  color: rgb(0, 0, 0);
+}
+.busqueda {
+  gap: 0.5%;
+  display: flex;
+  justify-content: end;
+  margin-top: -1.8%;
 }
 
 #tiendaR {
@@ -374,7 +378,7 @@ body {
 #tiendaH {
   display: grid;
   margin-top: 1%;
-  margin-bottom: 0%;
+  margin-bottom: 1%;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50% 49%;
   gap: 1%;
@@ -488,7 +492,7 @@ body {
 #tiendaA {
   display: grid;
   margin-top: 1%;
-  margin-bottom: 0%;
+  margin-bottom: 1%;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50% 49%;
   gap: 1%;
